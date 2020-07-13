@@ -28,9 +28,9 @@ namespace console
                 }
             }
             
-            if (j - min != 1) quicksort(arr, min, j);
+            quicksort(arr, min, j);
 
-            if (max - i != 1) quicksort(arr, i, max);
+            quicksort(arr, i, max);
         }
 
         static void Main(string[] args)
