@@ -37,8 +37,7 @@ namespace Dictionary
             }
 
             Console.WriteLine("Введите ключ");
-
-            //string key = keyValuePairs.FirstOrDefault(x => x.Key == Console.ReadLine()).Value;
+            
             string value = Console.ReadLine();
             string key = "";
 
