@@ -17,4 +17,4 @@
 - [x] [Задание №8](https://github.com/tjgtll/additional-task/blob/master/task/task8.cs)
 
 - [x] [Задание №9](https://github.com/tjgtll/additional-task/blob/master/task/task9.cs)
-//Все тесты прошли, но по времени не уложился 
+//Все тесты прошел, но по времени не уложился 
