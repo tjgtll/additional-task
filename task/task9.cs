@@ -22,6 +22,7 @@ namespace polidrom
         static void Main(string[] args)
         {
             int t = Convert.ToInt32(Console.ReadLine());
+            int[] arr = new int[t * 2];
             for (int x = 0; x < t; x++)
             {
 
@@ -38,7 +39,13 @@ namespace polidrom
                     int Ri = Convert.ToInt32(s[1]);
                     if (Pal(word.Substring(Li - 1, Ri - Li + 1)) == true || (Li == Ri)) y++;
                 }
-                Console.WriteLine($"Case #{x + 1}: {y}");
+                arr[0 + x * 2] = x;
+                arr[1 + x * 2] = y;
+            }
+
+            for (int x = 0; x < t; x++)
+            {
+                Console.WriteLine($"Case #{arr[0 + x * 2] + 1}: { arr[1 + x * 2]}");
             }
 
         }
