@@ -46,7 +46,7 @@ namespace polidrom
                         if (ListQueue.Count != 0)
                         {
                             var itemToRemove = ListQueue.OrderBy(r => -r.Key).First();
-                            Console.WriteLine($"\nВыполнен: {itemToRemove.Value} имя приоритет {itemToRemove.Key}");
+                            Console.WriteLine($"\nВыполнен: {itemToRemove.Value} имея приоритет {itemToRemove.Key}");
 
                             ListQueue.Remove(itemToRemove);
                         }
