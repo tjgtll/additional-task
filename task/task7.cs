@@ -6,6 +6,18 @@ namespace Dictionary
 {
     class Program
     {
+        static public string OutMessage(string s, Dictionary<string, string> keyValuePairs)
+        {
+            string OutS = s;
+
+            foreach (KeyValuePair<string, string> keyValue in keyValuePairs)
+            {
+                OutS = OutS.Replace("{"+keyValue.Key+"}", keyValue.Value);
+            }
+
+            return OutS;
+        }
+
         static void Main(string[] args)
         {
             Dictionary<string, string> keyValuePairs = new Dictionary<string, string>();
@@ -36,19 +48,9 @@ namespace Dictionary
                 Console.WriteLine(keyValue.Key + " - " + keyValue.Value);
             }
 
-            Console.WriteLine("Введите ключ");
-            
-            string value = Console.ReadLine();
-            string key = "";
+            Console.WriteLine("Введите сообщение");
 
-            if (keyValuePairs.TryGetValue(value, out key))
-            {
-                Console.WriteLine($"Приветствую {key}");
-            }
-            else
-            {
-                Console.WriteLine("Такого ключа нет");
-            }
+            Console.WriteLine(OutMessage(Console.ReadLine(), keyValuePairs));
 
             Console.WriteLine();
         }
