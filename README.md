@@ -20,4 +20,4 @@
 //Все тесты прошел, но по времени не уложился 
 ![alt text](https://i.ibb.co/fXm5g3r/image.png)
 
-- [ ] [Задание №10](https://github.com/tjgtll/additional-task/blob/master/task/task10.cs)
+- [x] [Задание №10](https://github.com/tjgtll/additional-task/blob/master/task/task10.cs)
