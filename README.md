@@ -10,7 +10,7 @@
 
 - [x] [Задание №5](https://github.com/tjgtll/additional-task/blob/master/task/task5.cs)
 
-- [ ] [Задание №6](https://github.com/tjgtll/additional-task/blob/master/task/task6.cs)
+- [x] [Задание №6](https://github.com/tjgtll/additional-task/blob/master/task/task6.cs)
 
 - [x] [Задание №7](https://github.com/tjgtll/additional-task/blob/master/task/task7.cs)
 
